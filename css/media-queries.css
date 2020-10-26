@@ -9,10 +9,10 @@
 body {
     display: flex;
     flex-direction: column;
-    width: 11em;
+    width: 15em;
     margin: 0 auto;
-    /*justify-content: space-between;*/
-    /*height: 100vh;*/
+    justify-content: space-evenly;
+    height: 100vh;
 }
 a {
     height: 1em;
@@ -38,10 +38,15 @@ body section {
     flex-direction: column;
 }
 
+section h2 {
+    margin-bottom: .5em;
+}
+
 .alert-info{
     display: flex;
     background-color: #CDFFFF;
     height: 3em;
+    border: 1px solid #ccc;
 }
 
 .alert-info a{
@@ -53,5 +58,4 @@ li{
     background-color: #CCCCCC;
     justify-content: center;
     padding: .5em;
-
 }
