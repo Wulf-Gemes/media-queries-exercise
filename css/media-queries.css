@@ -9,10 +9,11 @@
 body {
     display: flex;
     flex-direction: column;
-    width: 15em;
+    width: 320px;
     margin: 0 auto;
     justify-content: space-evenly;
-    height: 100vh;
+    /*height: 100vh;*/
+    padding: 1em;
 }
 a {
     height: 1em;
@@ -45,17 +46,33 @@ section h2 {
 .alert-info{
     display: flex;
     background-color: #CDFFFF;
-    height: 3em;
+    height: 50px;
     border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
 }
 
-.alert-info a{
-    margin: auto;
-}
 
 li{
     display: flex;
     background-color: #CCCCCC;
     justify-content: center;
     padding: .5em;
+}
+
+.main {
+    margin-bottom: 2em;
+}
+
+.sub-section {
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-size: .75em;
 }
