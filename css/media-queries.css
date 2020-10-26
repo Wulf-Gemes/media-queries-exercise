@@ -15,7 +15,7 @@ body {
     /*height: 100vh;*/
     padding: 1em;
     font-family: sans-serif;
-    max-width: 1500px;
+    max-width: 1400px;
 }
 a {
     height: 1em;
@@ -103,7 +103,7 @@ footer p {
 
 @media screen and (min-width: 768px) {
     body {
-        width: 100%;
+        width: 90%;
         /*flex-basis: 100%;*/
         flex-direction: row;
         flex-wrap: wrap;
