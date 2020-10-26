@@ -28,7 +28,9 @@ ul {
     justify-content: space-around;
     /*align-items: center;*/
 }
-
+.header-img img{
+    width: 100%;
+}
 
 
 body section {
