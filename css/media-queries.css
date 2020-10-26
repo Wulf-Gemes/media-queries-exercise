@@ -116,6 +116,7 @@ footer p {
         flex-direction: row;
         margin-left: auto;
         height: 4em;
+        flex-basis: 50%;
     }
 
     li {
@@ -128,6 +129,7 @@ footer p {
 
     h1 {
         margin: 0 auto 0 0;
+        flex-basis: 50%;
     }
 
     .main {
@@ -147,4 +149,5 @@ footer p {
         width: 100%;
         margin-top: 12em;
     }
+
 }
