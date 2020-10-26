@@ -12,9 +12,17 @@ body {
     display: flex;
     flex-direction: column;
     width: 11em;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 ul {
+    display: flex;
+    flex-direction: column;
+}
+
+body section {
     display: flex;
     flex-direction: column;
 }
